@@ -41,3 +41,10 @@ double p = pages;
 Console.WriteLine(p);
 #endregion
 
+
+#region _5
+double price = 49.99;
+int intprice = (int)price;
+Console.WriteLine(intprice);
+#endregion
+
