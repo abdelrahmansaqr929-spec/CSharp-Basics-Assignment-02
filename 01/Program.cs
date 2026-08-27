@@ -8,4 +8,10 @@ Console.WriteLine(obj.GetHashCode());
 Console.WriteLine(obj.GetType());
 #endregion
 
+#region _2
+/*that is compile time error 
+you shoulde remove double quotes
+to be int pages = 464 ;
+ */
+#endregion
 
