@@ -66,3 +66,9 @@ if (!int.TryParse(badText, out c))
     Console.WriteLine("invalid number");
 #endregion
 
+#region _8
+int Pages = 464;
+string pagesT = pages.ToString();
+Console.WriteLine(pagesT);
+Console.WriteLine(pagesT.GetType());
+# endregion
