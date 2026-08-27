@@ -15,6 +15,7 @@ to be int pages = 464 ;
  */
 #endregion
 
+
 #region _3
 try
 {
@@ -56,3 +57,66 @@ Console.WriteLine(page);
 #endregion
 
 
+
+#region _3
+try
+{
+    int i = 10;
+    int j = 0;
+    int k = i / j;
+
+}
+catch (DivideByZeroException)
+{
+    Console.WriteLine("you can not divide by zero ");
+}
+finally
+{
+    Console.WriteLine("done ");
+}
+
+#endregion
+
+
+#region _4
+int _pages = 300;
+double pg = _pages;
+Console.WriteLine(pg);
+#endregion
+
+
+#region _5
+double _price = 49.99;
+int intPrice = (int)_price;
+Console.WriteLine(intPrice);
+#endregion
+
+
+
+
+
+#region _7
+string text = "2023";
+int g = int.Parse(text);
+Console.WriteLine(g);
+string badText = "abc";
+int c;
+if (!int.TryParse(badText, out c))
+    Console.WriteLine("invalid number");
+#endregion
+
+#region _8
+int Pages = 464;
+string pagesT = pages.ToString();
+Console.WriteLine(pagesT);
+Console.WriteLine(pagesT.GetType());
+# endregion
+
+#region _9
+int copise = 100;
+object intObj = copise;
+Console.WriteLine(intObj);
+
+int unBoxing = (int)intObj;
+Console.WriteLine(unBoxing);
+#endregion
