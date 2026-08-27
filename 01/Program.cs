@@ -33,3 +33,11 @@ finally
 }
 
 #endregion
+
+
+#region _4
+int pages = 300;
+double p = pages;
+Console.WriteLine(p);
+#endregion
+
