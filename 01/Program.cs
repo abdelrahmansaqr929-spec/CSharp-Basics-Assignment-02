@@ -15,6 +15,7 @@ to be int pages = 464 ;
  */
 #endregion
 
+
 #region _3
 try
 {
@@ -54,6 +55,44 @@ string pagestext = "464";
 int page = Convert.ToInt32(pagestext);
 Console.WriteLine(page);
 #endregion
+
+
+
+#region _3
+try
+{
+    int i = 10;
+    int j = 0;
+    int k = i / j;
+
+}
+catch (DivideByZeroException)
+{
+    Console.WriteLine("you can not divide by zero ");
+}
+finally
+{
+    Console.WriteLine("done ");
+}
+
+#endregion
+
+
+#region _4
+int _pages = 300;
+double pg = _pages;
+Console.WriteLine(pg);
+#endregion
+
+
+#region _5
+double _price = 49.99;
+int intPrice = (int)_price;
+Console.WriteLine(intPrice);
+#endregion
+
+
+
 
 
 #region _7
