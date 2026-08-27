@@ -15,3 +15,21 @@ to be int pages = 464 ;
  */
 #endregion
 
+#region _3
+try
+{
+    int i = 10;
+    int j = 0;
+    int k = i / j;
+
+}
+catch (DivideByZeroException)
+{
+    Console.WriteLine("you can not divide by zero ");
+}
+finally
+{
+    Console.WriteLine("done ");
+}
+
+#endregion
