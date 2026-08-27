@@ -72,3 +72,12 @@ string pagesT = pages.ToString();
 Console.WriteLine(pagesT);
 Console.WriteLine(pagesT.GetType());
 # endregion
+
+#region _9
+int copise = 100;
+object intObj = copise;
+Console.WriteLine(intObj);
+
+int unBoxing = (int)intObj;
+Console.WriteLine(unBoxing);
+#endregion
